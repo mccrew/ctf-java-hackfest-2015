@@ -33,4 +33,10 @@
 > * Aremania
 > * Aremanita
 
-> Lalu saya mencoba menjalankan lagi file executable tersebut lalu saya isikan clue :
+> Lalu saya mencoba menjalankan lagi file executable tersebut lalu saya isikan clue Aremania. Tapi aneh, karena apapun input yang kita masukkan pasti akan error, namun saya mendapat clue lagi pada program tersebut yaitu “<string>”, Lalu saya coba lagi dengan menggunakan tanda petik karena string ditulis dengan tanda petik "Aremania" Hasil nya saya mendapatkan sesuatu yang saya curigai flag :
+
+> sy4t:w4in_u4pxs3fg_z4a1s3fg0
+
+> Saya kirim tapi bukan flag :(. Saya curiga enkripsi tersebut adalah ROT13, setelah saya coba dengan hackbar hasilnya saya mendapatkan flag
+
+> fl4g:j4va_h4ckf3st_m4n1f3st0
