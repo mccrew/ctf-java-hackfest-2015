@@ -1,6 +1,6 @@
 # CTF Java HackFest 2015: Begin
 
-**Points:** 100
+**Points:** 5
 **Author:** Gendhenk
 **Description:**
 
