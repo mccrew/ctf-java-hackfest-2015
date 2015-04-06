@@ -9,7 +9,7 @@
 
 > Clue : "Try for digging and get the flag"
 
-Dari clue diatassaya mendapat informasi tentang dig dan TXT. Pada linux
+Dari clue diatas saya mendapat informasi tentang dig dan TXT. Pada linux
 terdapat menu dig, lalu saya coba dengan arguman TXT
 
 $ dig +short TXT linux.com
