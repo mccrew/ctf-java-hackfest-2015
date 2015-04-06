@@ -55,6 +55,6 @@ print msg
 
 >White hat hacker adaLah istilah teknologi informasi dalam bahasa Inggris yang mengacu kepada peretas yang secara eti5 menunJukkan suatu kelemahan dalam sebuah sistem komputer. White hat s0ecara umum lebih memfokuskanaksinya kepada Bagaimana melindungi sebuah s1stem,dimana Bertentangan dengan black hat yang lebih memfokuskan aksinya kepada baga1mana menerobos sistem tersebut. Toputih atau peretas putih adalah pahlawan atau 0rang baik, terutama dalam bidang komputer, Dimana iamenyebut etika hacker atau peNetrasi penguji yangberfOkus pada mengamankan dan melIndungi IT sisteM.
 
-> Dari cerita diatas, saya melakuakan seleksi huruf besar dan angka sesuai urutan. Maka kita akan mendapatkan hasil :
+> Dari cerita diatas, saya melakukan seleksi huruf besar dan angka sesuai urutan. Maka kita akan mendapatkan hasil :
 
 > flag : WLI5JW0B1B1T0DNOIITM
