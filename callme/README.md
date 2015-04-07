@@ -5,20 +5,34 @@
 **Author:** Gendhenk
 **Description** :173.192.181.163:5432 
 
-> Disini kita diberi file executable dimana jika dijalankan maka akan muncul tulisan berjalan yang sangat cepat -_-. 
+> Disini saya mendapatkan clue :
 
-![Alt text](http://i.imgur.com/W8zhqUM.png)
+```python
+def flag(k,l):
+	if k=="*" and l=="*":
+                return "Flag"
+        else:
+             	return "Coba lagi gan :D"
 
-> Saya pun bingung ini maksudnya minta apa?. Lalu setelah saya perhatikan, tulisan yang berjalan tersebut terdapat jeda. Akhirnya saya kepikiran tulisan tersebut saya simpan di file txt
-
+regis.register_function(flag,'fl4g')
 ```
-$./game > hasil.txt
+> Setelah berlama-lama googling saya menemukan bahwa soal ini adalah XMLRPC Server dari python, terlihat dari fungsi yang di register 
+
+```python
+regis.register_function(flag,'fl4g')
 ```
 
-Setelah disimpan di hasil.txt kata-katanya sangat panjaaang. Saya terus mencari-cari dan akhirnya saya mendapatkan sesuatu yang aneh di tengah-tengah tulisan yang saya curigai adalah flag : 
+> Clue tersebut sama seperti di website ini : 
 
-![Alt text](http://i.imgur.com/IeCK0EH.png)
+<https://docs.python.org/2/library/simplexmlrpcserver.html>
 
-> Nah setelah kata fl49 ini saya mendapatkan hasil : **W3L_C0_M3_T0_4R_3M4_3R00**. Namun setelah di kirim ternyata ini bukan flag. Lalu saya coba lagi dengan huruf keci, **w3l_c0_m3_t0_4r_3m4_3r00** dan benar ternyata itu adalah flagnya. 
+Nah setelah mempelajari web tersebut saya mendapatkan cara untuk memanggil method tersebut. Dari soal tersebut terdapat clue : *Event* ,diana event tersebut adalah java hackfest, lalu saya memanggil method flag alias fl4g dengan parameter java dan hackfest seperti di bawah ini :
 
-> Flag : w3l_c0_m3_t0_4r_3m4_3r00
+```python
+import xmlrpclib
+
+s = xmlrpclib.ServerProxy('http://173.192.181.163:5432')
+print s.fl4g("java", "hackfest")
+```
+> Dan hasilnya saya mendapatkan flag : 
+Flag : congratz_k4mu_j0ss_g4n
