@@ -35,4 +35,5 @@ s = xmlrpclib.ServerProxy('http://173.192.181.163:5432')
 print s.fl4g("java", "hackfest")
 ```
 > Dan hasilnya saya mendapatkan flag : 
-Flag : congratz_k4mu_j0ss_g4n
+
+> Flag : congratz_k4mu_j0ss_g4n
