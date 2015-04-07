@@ -1,7 +1,7 @@
 # CTF Java HackFest 2015: Find Me!
 
 **Points:** 150
-**Author:** 
+**Author:** Gendhenk 
 **Description:**
 
 > Pada soal ini kita mendapatkan kan file yang belum diketahui ekstensinya : 
@@ -31,6 +31,6 @@ M4$L#!!0#```(`-
 
 > Hasil itu seperti enkripsi base64 tapi jika didecode tidak bisa. perhatikan lagi baik2 pada tulisan itu setelah base64 ada panah menuju angka 13 kita coba menggunakan rot13 ke tulisan itu.. hasilnya *aW5kMG4zczFBX3I0eUE=* , lalu coba kita decode lagi base64 itu dan hasilnya adalah *ind0n3s1A_r4yA*
 
-![Alt text](http://i.imgur.com/8zd3Kin.png)
+![Alt text](http://i.imgur.com/J3KQ2kU.png)
 
 > Flag : ind0n3s1A_r4yA
