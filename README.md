@@ -11,3 +11,5 @@
 * [Find Me!](findMe)
 * [Call Me!](callme)
 * [Play The Game](play-the-game)
+* [Get The Flag](get-the-flag)
+* [Get Flag Code)(get-flag-code)
