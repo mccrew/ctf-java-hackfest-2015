@@ -19,7 +19,7 @@ M4$L#!!0#```(`-
 
 ![Alt text](http://i.imgur.com/caeCUJO.jpg)
 
-> Dari sini saya mencoba untuk melihat metadata gambar tersebut dengan exifttool :
+> Dari sini saya mencoba untuk melihat metadata gambar tersebut dengan exiftool :
 
 ![Alt text](http://i.imgur.com/f0RsYPl.png)
 
