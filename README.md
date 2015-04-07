@@ -5,3 +5,9 @@
 * [Malang Cyber Crew] (https://mc-crew.or.id)
 
 ## Completed write-ups
+* [Begin](begin)
+* [Crx001](crx001)
+* [Plain](plain)
+* [Find Me!](findMe)
+* [Call Me!](callme)
+* [Play The Game](play-the-game)
