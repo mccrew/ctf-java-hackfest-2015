@@ -1,4 +1,4 @@
-# CTF Java HackFest 2015: Call Me!
+# CTF Java HackFest 2015: Get Flag Code
 
 **point:** 200
 **Author:** Ph4nt0m
