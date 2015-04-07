@@ -20,6 +20,6 @@ Setelah disimpan di hasil.txt kata-katanya sangat panjaaang. Saya terus mencari-
 
 ![Alt text](http://i.imgur.com/IeCK0EH.png)
 
-> Nah setelah kata fl49 ini saya mendapatkan hasil : **W3L_C0_M3_T0_4R_3M4_3R00**. Namun setelah di kirim ternyata ini bukan flag. Lalu saya coba lagi dengan huruf keci, **w3l_c0_m3_t0_4r_3m4_3r00** dan benar ternyata itu adalah flagnya. 
+> Nah setelah kata fl49 ini saya mendapatkan hasil : **W3L_C0_M3_T0_4R_3M4_3R00**. Namun setelah di kirim ternyata ini bukan flag. Lalu saya coba lagi dengan huruf kecil, **w3l_c0_m3_t0_4r_3m4_3r00** dan benar ternyata itu adalah flagnya. 
 
 > Flag : w3l_c0_m3_t0_4r_3m4_3r00
