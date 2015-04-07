@@ -1,46 +1,24 @@
 # CTF Java HackFest 2015: Call Me!
 
-**pass :** javahackfest0x07
-**clue :** Event
-**point:** 150
+**pass :** javahackfest0x06
+**point:** 50
 **Author:** Gendhenk
 **Description** :173.192.181.163:5432 
 
-> Disini saya mendapatkan clue :
+> Disini kita diberi file executable dimana jika dijalankan maka akan muncul tulisan berjalan yang sangat cepat -_-. 
 
-```python
-def flag(k,l):
-	if k=="*" and l=="*":
-                return "Flag"
-        else:
-             	return "Coba lagi gan :D"
+![Alt text](http://i.imgur.com/W8zhqUM.png)
 
-regis.register_function(flag,'fl4g')
+> Saya pun bingung ini maksudnya minta apa?. Lalu setelah saya perhatikan, tulisan yang berjalan tersebut terdapat jeda. Akhirnya saya kepikiran tulisan tersebut saya simpan di file txt
+
 ```
-> Setelah berlama-lama googling saya menemukan bahwa soal ini adalah XMLRPC Server dari python, terlihat fungsi *register_function*
-
-> Clue tersebut sama seperti di website ini : 
-
-<https://docs.python.org/2/library/simplexmlrpcserver.html>
-
-> Nah setelah mempelajari web tersebut saya mendapatkan cara untuk memanggil method tersebut. Dari soal tersebut terdapat clue : *Event* ,dimana event tersebut adalah **java hackfest**, lalu saya memanggir method flag alias fl4g dengan parameter "Java" dan "Hackfest" :
-
-```python
-import xmlrpclib
-
-s = xmlrpclib.ServerProxy('http://173.192.181.163:5432')
-print s.fl4g("Java", "Hackfest")
+$./game > hasil.txt
 ```
-> Tapi hasilnya "Coba lagi gan :D"
 
-Apa yang salah ya? ,ternyata saya coba-coba untuk mengubah clue Java HackFest menjadi lowercase semua :
+Setelah disimpan di hasil.txt kata-katanya sangat panjaaang. Saya terus mencari-cari dan akhirnya saya mendapatkan sesuatu yang aneh di tengah-tengah tulisan yang saya curigai adalah flag : 
 
-```python
-import xmlrpclib
+![Alt text](http://i.imgur.com/IeCK0EH.png)
 
-s = xmlrpclib.ServerProxy('http://173.192.181.163:5432')
-print s.fl4g("java", "hackfest")
-```
-> Dan hasilnya kita langsung mendapatkan flag :
+> Nah setelah kata fl49 ini saya mendapatkan hasil : **W3L_C0_M3_T0_4R_3M4_3R00**. Namun setelah di kirim ternyata ini bukan flag. Lalu saya coba lagi dengan huruf keci, **w3l_c0_m3_t0_4r_3m4_3r00** dan benar ternyata itu adalah flagnya. 
 
-> Flag : congratz_k4mu_j0ss_g4n
+> Flag : w3l_c0_m3_t0_4r_3m4_3r00
