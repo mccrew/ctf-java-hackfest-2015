@@ -33,7 +33,11 @@
 > * Aremania
 > * Aremanita
 
-> Lalu saya mencoba menjalankan lagi file executable tersebut lalu saya isikan clue Aremania. Tapi aneh, karena apapun input yang kita masukkan pasti akan error, namun saya mendapat clue lagi pada program tersebut yaitu “<string>”, Lalu saya coba lagi dengan menggunakan tanda petik karena string ditulis dengan tanda petik "Aremania" Hasil nya saya mendapatkan sesuatu yang saya curigai flag :
+> Lalu saya mencoba menjalankan lagi file executable tersebut dan saya isikan clue Aremania. 
+
+![Alt text](http://i.imgur.com/c9zZovU.png)
+
+> Tapi aneh, karena apapun input yang kita masukkan pasti akan error, namun saya mendapat clue lagi pada program tersebut yaitu “<string>”, Lalu saya coba lagi dengan menggunakan tanda petik karena string ditulis dengan tanda petik "Aremania" Hasil nya saya mendapatkan sesuatu yang saya curigai flag :
 
 > sy4t:w4in_u4pxs3fg_z4a1s3fg0
 
